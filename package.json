@@ -1,5 +1,5 @@
 {
-  "name": "ui-components",
+  "name": "my-space",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,13 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "element-ui": "^2.14.1",
+    "less": "^4.0.0",
+    "less-loader": "^7.2.0",
     "path": "^0.12.7",
     "vue": "^2.6.11",
-    "vue-router": "^3.4.9"
+    "vue-router": "^3.4.9",
+    "vuex": "^3.6.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

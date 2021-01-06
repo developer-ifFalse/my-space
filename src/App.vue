@@ -1,8 +1,5 @@
 <template>
-  <div>
-    sss
-    <router-view></router-view>
-  </div>
+  <router-view></router-view>
 </template>
 
 <script>
@@ -10,7 +7,6 @@ export default {
   name: "App",
   components:{},
   created(){
-    console.log(this.$router)
   }
 };
 </script>
@@ -23,5 +19,16 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
 }
 </style>
